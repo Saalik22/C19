@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Javascript</title>
+    </head>
+
+    <body>
+        <h1 id="myH"></h1>
+        <p id="myP"></p>
+
+        <h1>JavaScript Variables</h1>
+        <p>Sum of two numbers</p>
+        <p id="Result"></p>
+
+        <h2>Operator</h2>
+        <p id="Demo"></p>
+        <p id="Demo1"></p>
+        <p id="Demo2"></p>
+        <p id="Demo3"></p>
+        <p id="Demo4"></p>
+        <script>
+            document.getElementById("myH").innerHTML = "JavaScript Comments";
+            document.getElementById("myP").innerHTML = "My First Paragraph";
+
+            var num1 = 5;
+            var num2 = 6;
+            var sum = num1 + num2;
+            document.getElementById("result").innerHTML =
+            "The total sum is: " + sum;
+
+            var x = 5;
+            var y = 2;
+            var z = x + y;
+            var a = x - y;
+            var b = x * y;
+            var c = x / y;
+
+            document.getElementById("Demo").innerHTML = z;
+            document.getElementById("Demo1").innerHTML = a;
+            document.getElementById("Demo2").innerHTML = b;
+            document.getElementById("Demo3").innerHTML = c;
+
+            x += 4;
+            document.getElementById("Demo4").innerHTML = x;
+        </script>
+    </body>
+</html>
